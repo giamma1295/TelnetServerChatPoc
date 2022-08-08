@@ -11,7 +11,7 @@ public class AppBootstrap {
 	public static void main(String[] args) {
 		try {
 			// Default Port
-			int serverPort = 9900;
+			int serverPort = 10000;
 
 			// port as first argument
 			if (args.length > 0 && StringUtils.isNumeric(args[0])) {
